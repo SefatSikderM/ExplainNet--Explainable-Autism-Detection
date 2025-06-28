@@ -5,6 +5,6 @@ opencv-python-headless
 Pillow
 matplotlib
 streamlit
-pytorch-grad-cam
 facenet-pytorch
 dlib
+git+https://github.com/jacobgil/pytorch-grad-cam.git
