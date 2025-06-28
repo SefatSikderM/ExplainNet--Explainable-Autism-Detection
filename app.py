@@ -5,7 +5,7 @@ import numpy as np
 from PIL import Image
 from torchvision.models import mobilenet_v2, MobileNet_V2_Weights
 from torchvision import transforms
-from pytorch_grad_cam import GradCAM
+from pytorch_grad_cam.grad_cam import GradCAM
 from pytorch_grad_cam.utils.image import show_cam_on_image
 from pytorch_grad_cam.utils.model_targets import ClassifierOutputTarget
 import dlib
